@@ -4,18 +4,11 @@ This is a simple ecommerce webscrapper as well as a jupyter notebook file showca
 
 ## Dependencies
 
-I recommend you use anaconda, more info on: https://anaconda.org/.
-
-After installing conda you can create a virtual environment as follows:
+I recommend you use pipenv
 
 ```
-conda env create -f environment.yml
-source activate scraping_env
-```
-
-Another option is to install needed packages with your favorite third-party package manager, like pip for example:
-```
-pip install -r requirements.txt
+pipenv install
+pipenv shell
 ```
 
 ## Usage
